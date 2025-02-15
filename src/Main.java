@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 15_554; //стоимость билета
-        int y = (x / 20); // количество начисленных миль
+        int ticket = 15_554; //стоимость билета
+        int miles = (ticket / 20); // количество начисленных миль
 
-        System.out.println("Количество начисленных балов = " + y);
+        System.out.println("Количество начисленных балов = " + miles);
 
 
         // Объявляете переменные для входных данных и
